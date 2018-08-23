@@ -83,6 +83,7 @@ rule SystemACL {
 // 以下はリクエストのパラメータ例
 
 #### "+ Create New Participant"
+
 ```p.json
 ○Jenny
 {
@@ -101,7 +102,9 @@ rule SystemACL {
 }
 ```
 
-"+ Create New Asset"
+#### "+ Create New Asset"
+
+```a.json
 {
   "$class": "org.acme.mynetwork.Commodity",
   "tradingSymbol": "ABC",
@@ -110,10 +113,14 @@ rule SystemACL {
   "quantity": 72.297,
   "owner": "resource:org.acme.mynetwork.Trader#TRADER1"
 }
+```
 
-"Submit Transaction"
+#### "Submit Transaction"
+
+```t.json
 {
   "$class": "org.acme.mynetwork.Trade",
   "commodity": "resource:org.acme.mynetwork.Commodity#ABC",
   "newOwner": "resource:org.acme.mynetwork.Trader#TRADER2"
 }
+```
