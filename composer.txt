@@ -1,6 +1,4 @@
-c
-
-del File models/sample.cto"
+File models/sample.cto"
 
 /**
  * My commodity trading network
