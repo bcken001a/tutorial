@@ -82,7 +82,8 @@ rule SystemACL {
 
 // 以下はリクエストのパラメータ例
 
-"+ Create New Participant"
+#### "+ Create New Participant"
+```p.json
 ○Jenny
 {
   "$class": "org.acme.mynetwork.Trader",
@@ -98,6 +99,7 @@ rule SystemACL {
   "firstName": "Amy",
   "lastName": "Williams"
 }
+```
 
 "+ Create New Asset"
 {
