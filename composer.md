@@ -85,7 +85,7 @@ rule SystemACL {
 #### "+ Create New Participant"
 
 ```p.json
-○Jenny
+○ Jenny
 {
   "$class": "org.acme.mynetwork.Trader",
   "tradeId": "TRADER1",
@@ -93,7 +93,7 @@ rule SystemACL {
   "lastName": "Jones"
 }
 
-○Amy
+○ Amy
 {
   "$class": "org.acme.mynetwork.Trader",
   "tradeId": "TRADER2",
