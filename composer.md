@@ -1,5 +1,6 @@
-File models/sample.cto"
+### Model
 
+```sample.cto
 /**
  * My commodity trading network
  */
@@ -25,9 +26,11 @@ transaction Trade {
     --> Commodity commodity
     --> Trader newOwner
 }
+```
 
-"Script File lib/sample.js"
+### Script
 
+```sample.js
 /**
  * Track the trade of a commodity from one trader to another
  * @param {org.acme.mynetwork.Trade} trade - the trade to be processed
@@ -50,9 +53,11 @@ function tradeCommodity(trade) {
             return assetRegistry.update(trade.commodity);       // assetRegistryの情報をupdateで更新
         });
 }
+```
 
-"Access Control permissions.acl"
+### Access Control permissions.acl"
 
+```permissions.acl
 /**
  * Access control rules for mynetwork
  */
@@ -71,6 +76,9 @@ rule SystemACL {
   resource: "org.hyperledger.composer.system.**"
   action: ALLOW
 }
+```
+
+### Request Sample
 
 // 以下はリクエストのパラメータ例
 
