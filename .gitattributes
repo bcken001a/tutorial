@@ -1,0 +1,2 @@
+*.cto linguist-language=ModelingLanguage
+*.acl linguist-language=AccessControl
