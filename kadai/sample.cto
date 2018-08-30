@@ -1,0 +1,14 @@
+/**
+ * My transfer network
+ */
+namespace org.acme.mynetwork
+participant Account identified by accountNumber {
+	o String accountNumber
+	o String accountName
+	o Double balance
+}
+transaction Transfer {
+	--> Account from
+	--> Account to
+	o Double amount
+}
