@@ -7,7 +7,7 @@
  * 	await function();
  * }
  *
- * async/awaitについての記事が詳しい
+ * async/awaitについては以下の記事が詳しい
  * https://qiita.com/soarflat/items/1a9613e023200bbebcb3
  */
 async function sendTransaction(transfer) {
